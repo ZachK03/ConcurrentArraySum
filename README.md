@@ -1,4 +1,4 @@
-# ConcurrentArraySum
+# ConcurrentArraySum-CEN-3024C
 Sums an incredibly large array in a single threaded method and multi-threaded method.
 
 <p align='center'>
