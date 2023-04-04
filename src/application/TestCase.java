@@ -16,7 +16,7 @@ class TestCase {
 	void test() {
 		Concurrency main = new Concurrency();
 		Random random = new Random();
-		int numOfThreads = random.nextInt(8) + 1;
+		int numOfThreads = random.nextInt(6) + 2;
 		main.concurrentAdd(numOfThreads);
 		System.out.println(main.getSumMulti());
 		System.out.println(main.getSumSingle());
